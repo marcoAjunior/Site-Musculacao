@@ -127,6 +127,10 @@ nav#menu a:hover {
     text-decoration: underline;
 }
 
+section#contatogit {    
+    color: #dddddd;
+}
+
 main {
     display: block;
     /*text-align: center;*/
