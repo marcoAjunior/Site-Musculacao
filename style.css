@@ -1,0 +1,212 @@
+img{    
+    width: 500px;  
+    height: 500px;
+    /*border-radius: 50%;*/
+    
+
+}
+
+body {
+    /*background-image: url("");*/ /* IMAGEM DE FUNDO */
+    
+    text-align: center;
+    background-color: rgb(192, 208, 238);    
+    font: normal 20pt Arial;
+    /*width: 1000px;
+    margin: 350px 500px 5000px 500px;*/
+    float: right;
+    
+    
+    
+}
+
+div#Interface {
+    display: block;
+    width: 1000px;
+    background-color: white;
+    margin: -20px 25px 0px 0px; /*Sequencia da margem (cima, direita, baixo, esquerda)*/
+    box-shadow: 0px 0px 10px black;
+    padding: 15px 15px 15px 15px;
+    float: right;
+    
+    
+}
+
+h1 {
+    color:blue;
+    text-align: center; /*Centralizar texto */
+    text-shadow: 2px 2px 2px black; /*Colocando sombra no texto*/
+}
+
+h3 {
+    color: rgb(215, 230, 13);
+    /*margin-right: auto;*/
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+
+}
+
+li {
+    text-align: center;
+}
+
+footer#rodape {
+    text-align: center;
+    color: blue;
+    clear: both;
+    border-top: 1px solid #606060;
+    
+}
+
+/*header#cabecalho img#icone {
+    /*position: absolute;
+    left: 8000px;
+    top: 50px;
+
+}
+*/
+/*header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+*/
+/*PARÁGRAFO*/
+p {
+    text-align: center;
+    text-align: justify;
+    text-indent: 50px;
+    /*width: 1350px;
+    margin: 0px auto;*/
+}
+
+/*FORMATAÇÃO DO MENU*/
+nav#menu ul {
+    list-style:none ; /*Sumir com o marcador*/
+    text-transform: uppercase; /*Todas as letras em maiuscula*/
+    position: absolute; /*absolet*/
+    top: -25px;
+    left: -35px;/*300*/
+    float: left;
+    margin: 30px 200px 0px 20px;
+}
+
+nav#menu li {
+    /*display: inline-block;*/ /*Um bloco seja exibido em uma mesma linha*/
+    display: block;
+    background-color: #dddddd;
+    padding: 10px; /*Espaço que temos dentro do objeto*/
+    margin: 5px ; /*Espaço que temos fora do objeto*/
+    text-align: left;
+    transition: background-color 1s;
+}
+
+nav#menu {
+    display: block;
+    
+}
+
+nav#menu h2 {
+    display: none;
+}
+
+nav#menu li:hover {
+    background-color: red;
+}
+
+nav#menu li{
+    background-color: rgb(243, 137, 137);
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    display: block;
+    /*text-align: center;*/
+    margin: 30px 100px 0px 200px;
+
+    /*display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;*/    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 198,0);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    /*border-bottom: solid 5px black;*/
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #000;
+    color: rgb(255, 198,0);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5re, serif;
+    box-shadow: rgb(255, 198,0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
+  
